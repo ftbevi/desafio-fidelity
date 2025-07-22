@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "desafio-fidelity"
+version = "0.1.0"
+description = ""
+authors = ["Thiago Beviláqua <fthiagobevilaqua@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+mariadb = "^1.1.13"
+selenium = "^4.34.2"
+tqdm = "^4.67.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipdb = "^0.13.13"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
